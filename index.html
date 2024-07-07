@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="color.css">
 </head>
 <body>
+    <!-- HEADING -->
         <div class="container">
             <div class="apply_box">
                 <h1>
                     Job Application 
                     <span class="title_small">(Web)</span>
                 </h1>
+                <!-- Here are Start to form  -->
                 <form action="">
                     <div class="form_container">
-
+                        <!-- 1 -->
                         <div class="form_control">
                             <label for="first_name">First Name</label>
                             <input
@@ -24,12 +26,15 @@
                             placeholder="Enter Your First Name..."/>
                         </div>
 
-
+                        <!-- 2 -->
                         <div class="form_control">
                             <label for="Last_name">Last Name</label>
-                            <input id="Last_name" name="Last_name" placeholder="Enter Your Last Name..."/>
+                            <input 
+                            id="Last_name" 
+                            name="Last_name" 
+                            placeholder="Enter Your Last Name..."/>
                         </div>
-
+                        <!-- 3 -->
                         <div class="form_control">
                             <label for="email">Email</label>
                             <input  
@@ -38,7 +43,7 @@
                             name="email" 
                             placeholder="Enter Your Email..."/>
                         </div>
-
+                        <!-- 4 -->
                         <div class="form_control">
                             <label for="Job_role">Job Role</label>
                             <select id="Job_role" name="Job_role">
@@ -50,13 +55,13 @@
 
                             </select>
                         </div>
-
-                        <div class="form_control">
+                        <!-- 5 -->
+                        <div class="textarea_control">
                             <label for="address">Address</label>
                             <textarea id="address" name="address" row="4" cols="50" placeholder="Enter Your address"></textarea>
                         </div>
 
-                        <!--  -->
+                        <!-- 6 -->
                         <div class="form_control">
                             <label for="city">City</label>
                             <input
@@ -64,7 +69,7 @@
                             name="city"
                             placeholder="Enter Your City Name..."/>
                         </div>
-                        <!--  -->
+                        <!-- 7  -->
 
                         <div class="form_control">
                             <label for="pincode">Pin Code</label>
@@ -74,15 +79,29 @@
                             name="pinecode"
                             placeholder="Enter Your Pine Code..."/>
                         </div>
-                        <!--  -->
-
-                        
-
-
-
+                        <!-- 8  -->
+                        <div class="form_control">
+                        <label for="date">Date</label>
+                        <input
+                            value="2024-07-08"
+                             type="date"
+                             id="date"
+                             name="date"/>
+                            </div>
+                            <!-- 9 -->
+                            <div class="form_control">
+                                <label for="upload">Upload Your CV</label>
+                                <input
+                                     type="file"
+                                     id="upload"
+                                     name="upload"/>
+                                    </div>
+                    </div>
+                    <!-- 10 -->
+                    <div class="button_container">
+                        <button type="submit">Apply Now</button>
                     </div>
                 </form>
-
             </div>
         </div>
 </body>
